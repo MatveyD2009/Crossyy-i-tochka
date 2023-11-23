@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+    align-content: center;
+    background-color: #F1F1F1;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: inline-block;
+    background-color: #FFFFFF;
+    height: 112px;
+    width: 100%;
+    border-bottom: 1px solid #A1A6B4;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 1160px;
+    height: auto;
+    margin: auto;
+}
+
+.header-logo {
+    margin-left: 0px;
+    width: 212.34px;
+    height: 63.24px;
+    margin: 24px 0;
+}
+  
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+    height: 20px;
+    margin: 46px 0 46px auto;
+}
+
+.description {
+    max-width: 1140px;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: 32px auto;
+    padding: 48px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.description__image {
+    width: 1044px;
+    height: 600px;
+}
+
+.description__content {
+    width: 1040px;
+    height: 916px;
+    margin-top: 32px;
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 24px 0 0 0;
+}
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.description__info {
+    display: flex;
+    width: 1044px;
+    height: 728px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.text {
+    width: 506px;
+    height: 784px;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: auto;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+p {
+    margin: 0;
+}
+
+.info {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 506px;
+    height: 258px;
+}
+
+hr {
+    margin: 0;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin: 24px 0 24px 0;
+}
+
+.footer {
+    display: inline-block;
+    background-color: #121723;
+    height: 142px;
+    width: 100%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121723;
+    display: flex;
+    width: 1160px;
+    height: 22.32px;
+    margin: 32px auto 32.68px;
+}
+
+.footer-logo {
+    margin-left: 0px;
+    width: 299.65px;
+    height: 22.32px;
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+    height: 20px;
+}
+
+.footer__splitter {
+    margin: 0px auto 0px;
+    width: 1160px;
+    height: 1px;
+    background: #E6E8EC66;
+}
+
+.copyright {
+    text-align: center;
+    color: #A1A6B4;
+    margin-top: 18px;
+    margin-bottom: 21px;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+      max-width: 375px;
+      margin: 0 auto;
+    }
+  
+    .header {
+      background-color: #FFFFFF;
+      height: 156px;
+      width: 100%;
+    }
+  
+    .header__container {
+      height: 100%;
+      width: 343px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .header-logo {
+      width: 215px;
+      height: 65px;
+      margin: 24px 64px;
+    }
+  
+    .navigation {
+      margin: 0 auto 24px;
+    }
+  
+    .content {
+      width: 375px;
+    }
+
+    .description {
+        width: 343px;
+        border-radius: 24px;
+        padding: 24px;
+    }
+
+    .description__image {
+        width: 295px;
+        height: 188px;
+    }
+
+    .description__content {
+        width: 295px;
+        height: auto;
+    }
+
+    .description__info {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 295px;
+        height: auto;
+    }
+
+    .info {
+        margin: 32px 0 0;
+        width: 295px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .footer {
+        background-color: #121723;
+        width: 375px;
+        height: 195px;
+    }
+
+    .footer__container {
+        width: 343px;
+        height: 74px;
+        display: flex;
+        flex-direction: column;
+        margin: 32px 16px 24px;
+    }
+
+    .footer-logo {
+        margin: 0 auto 32px;
+        width: 300px;
+        height: 22px;
+    }
+
+    .footer__navigation {
+        width: 262px;
+        height: 20px;
+        margin: auto;
+    }
+
+    .footer__splitter {
+        width: 343px;
+    }
+
+    .copyright {
+        margin: 24px auto;
+    }
+}
